@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Sixtyfour&display=swap');
+
+* {
+    margin: 0px;
+}
+
+body {
+    background: rgb(246, 224, 181);
+}
+
+.videodiv {
+    display: flex;
+    justify-content: center;
+}
+
+.video {
+    width: 100%;
+    height: 100%;
+    max-width: 800px;
+    max-height: 600px;
+}

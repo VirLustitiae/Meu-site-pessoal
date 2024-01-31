@@ -1,0 +1,82 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Sixtyfour&display=swap');
+
+*{
+        margin: 0px;
+    }
+body{
+    background: rgb(246,224,181);
+    
+}
+
+img{
+    max-width: 100%;
+    width: 300px;
+    height: 300px;
+    
+}
+
+.pagina{
+    margin-top: 50px;
+    display: flex;
+    width: auto;
+    height: auto;
+    border: 2px solid rgba(170,111,115, 1);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 10px;
+    
+    align-items: center;
+    flex-direction: column;
+    align-content: center;
+    gap: 5px 5px;
+    
+}
+ .nome{ 
+    font-weight: bold; font-size: 30px;
+    text-align: center;
+ }
+ .subtitulo{
+    font-weight: bold;
+    font-size: 20px;
+    font-style: italic ;
+    text-align: center;
+ }
+
+ .maintext{
+    display: flex;
+ }
+.buttonsocial {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: rgba(0, 0, 0, 0.5);
+    background-image: url('../img/whatsapp.png');
+    background-size: cover;
+    opacity: 0.8;
+    cursor: pointer;
+        }
+.menu {
+    font-style: normal;
+}
+.presentationtext{
+    
+}
+.textoprincipal{ 
+    margin-top: 5px;
+    border: 2px solid rgb(170,111,115); 
+    border-radius: 10px; 
+    padding: 10px; 
+    font-family: 'Sixtyfour', sans-serif;
+    font-size: 10px;
+    font-style: italic;
+    font-weight: bold;
+    text-align: center;
+    margin: 0px;
+    text-align: justify;
+    color: rgb(102,84,94);   
+}
