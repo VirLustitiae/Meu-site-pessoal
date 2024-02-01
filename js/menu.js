@@ -6,15 +6,15 @@ menuBar.style.position = 'fixed';
 menuBar.style.top = '0';
 menuBar.style.left = '0';
 menuBar.style.width = '100%';
-menuBar.style.backgroundColor = 'rgba(63, 188, 176, 0.5)'; 
+menuBar.style.backgroundColor = 'rgba(51,51,51, 0.2)'; 
 menuBar.style.display = 'flex';
 menuBar.style.justifyContent = 'center';
 menuBar.style.backdropFilter = 'blur(5px)'; 
 
 //  botões
-const homeButton = createButton('Home', 'Index.html');
-const aboutButton = createButton('Projetos', 'projetos.html');
-const contactsButton = createButton('Contato', 'contato.html');
+const homeButton = createButton('HOME', 'Index.html');
+const aboutButton = createButton('PROJETOS', 'projetos.html');
+const contactsButton = createButton('SOBRE', 'contato.html');
 
 menuBar.appendChild(homeButton);
 menuBar.appendChild(aboutButton);
@@ -33,16 +33,20 @@ function createButton(text, link) {
     button.style.fontSize = '16px';
     button.style.padding = '10px';
     button.style.textDecoration = 'none';
+    button.style.color = 'white'; // BEGIN: Set button text color to white
+    button.style.fontWeight = 'bold'; // BEGIN: Set button text to bold
     
     // Adiciona eventos de mouseover e mouseout
     button.addEventListener('mouseover', () => {
-        button.style.backgroundColor = 'rgba(238,169,144, 0.5)';
-        button.style.transition = 'background-color 0.3s ease';
+        button.style.backgroundColor = 'rgba(153,153,153, 0.5)';
+        button.style.transform = 'scale(1.1)'; // BEGIN: Increase button size on mouseover
+        button.style.transition = 'background-color 0.5s ease, transform 0.5s ease'; // BEGIN: Add transition effect
     });
     
     button.addEventListener('mouseout', () => {
-        button.style.backgroundColor = 'rgba(63, 188, 176, 0.5)';
-        button.style.transition = 'background-color 0.3s ease';
+        button.style.backgroundColor = 'rgba(63, 188, 176, 0.0)';
+        button.style.transform = 'scale(1)'; // BEGIN: Reset button size on mouseout
+        button.style.transition = 'background-color 0.3s ease, transform 0.3s ease'; // BEGIN: Add transition effect
     });
     
     return button;
