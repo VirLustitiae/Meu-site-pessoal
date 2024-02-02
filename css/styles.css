@@ -84,7 +84,7 @@ img{
     font-size: 24px;
     max-width: calc(50% + 40px);
     text-decoration-style: dashed;
-    margin: 0 auto; /* Add this line to center the content horizontally */
+    margin: 0 auto; 
     display: flex;
     justify-content: center;
     align-items: center;
@@ -178,7 +178,7 @@ img{
         font-size: 35px;
         max-width: 90%;
         text-decoration-style: dashed;
-        margin: 0 auto; /* Add this line to center the content horizontally */
+        margin: 0 auto; 
         display: flex;
         justify-content: center;
         align-items: center;
