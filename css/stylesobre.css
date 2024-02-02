@@ -1,0 +1,27 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-indent: 0;
+}
+body{   
+    margin-top: 50px;
+    background-color: rgb(17,17,17);
+}
+h1 {
+    color: rgb(60, 60, 60);
+    font-family: Arial, sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 11pt;
+}
+.p,
+p {
+    color: rgb(60, 60, 60);
+    font-family: Arial, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    text-decoration: none;
+    font-size: 11pt;
+    margin: 0pt;
+}
