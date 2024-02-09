@@ -12,7 +12,7 @@ menuBar.style.justifyContent = 'center';
 menuBar.style.backdropFilter = 'blur(5px)'; 
 
 //  botões
-const homeButton = createButton('HOME', 'index.html');
+const homeButton = createButton('HOME', '../index.html');
 const aboutButton = createButton('PROJETOS', 'projetos.html');
 const contactsButton = createButton('SOBRE', 'contato.html');
 
